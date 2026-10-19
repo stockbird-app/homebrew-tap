@@ -2,7 +2,6 @@
 class Stockbird < Formula
   desc "Command-line tool for the Stockbird API"
   homepage "https://github.com/stockbird-app/cli-release"
-  version "0.2.0"
 
   on_macos do
     on_arm do
