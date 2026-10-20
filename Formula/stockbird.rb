@@ -5,23 +5,23 @@ class Stockbird < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/stockbird-app/cli-release/releases/download/v0.6.0/stockbird_0.6.0_darwin_arm64.tar.gz"
-      sha256 "301ccee6f48a4f2a5695bc487ac749aed700ef7a3f27a068d4b47bc31b01d2ca"
+      url "https://github.com/stockbird-app/cli-release/releases/download/v0.7.1/stockbird_0.7.1_darwin_arm64.tar.gz"
+      sha256 "43715eb02e3e8b6d1e416ac7075f070844feea5dba788823932540f72a5a7569"
     end
     on_intel do
-      url "https://github.com/stockbird-app/cli-release/releases/download/v0.6.0/stockbird_0.6.0_darwin_amd64.tar.gz"
-      sha256 "167d432aca11b3afa434d336931adcc26617994ac9ab7a558e76327c0b206206"
+      url "https://github.com/stockbird-app/cli-release/releases/download/v0.7.1/stockbird_0.7.1_darwin_amd64.tar.gz"
+      sha256 "d2d80846c81bba311c3b65c7cfc89a4b3ade0fac1bebe6de6512d45a0c5e375d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/stockbird-app/cli-release/releases/download/v0.6.0/stockbird_0.6.0_linux_arm64.tar.gz"
-      sha256 "b17e138ca4c0c8b5ad5d17c4ade4d6e7bd6ac99e68b3b32c7f72287a64c68e2a"
+      url "https://github.com/stockbird-app/cli-release/releases/download/v0.7.1/stockbird_0.7.1_linux_arm64.tar.gz"
+      sha256 "bb500fb3c2689b9a9616c3460e2a4e7f7a77de77cd51bede109dfcb224f738e5"
     end
     on_intel do
-      url "https://github.com/stockbird-app/cli-release/releases/download/v0.6.0/stockbird_0.6.0_linux_amd64.tar.gz"
-      sha256 "76fdbff7a2da68799fdb3d54b555ca39d3d7bf6fcf20d6f646533175a7ede3c5"
+      url "https://github.com/stockbird-app/cli-release/releases/download/v0.7.1/stockbird_0.7.1_linux_amd64.tar.gz"
+      sha256 "c2cf1b667335b28c8691aeab29e8d3c5106151df2b9aab219918f3109518c498"
     end
   end
 
